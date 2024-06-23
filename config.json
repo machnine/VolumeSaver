@@ -1,0 +1,14 @@
+{
+    "container_name": "django_container",
+    "backup_dir": "C:\\backups",
+    "temp_dir": "C:\\temp\\docker_backup",
+    "volumes": [
+      {
+        "container_path": "/app/data"
+      },
+      {
+        "container_path": "/another/path"
+      }
+    ]
+  }
+  
